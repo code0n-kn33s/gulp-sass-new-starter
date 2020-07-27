@@ -12,7 +12,7 @@ var paths = {
         src: "src/scss/*.scss",
         dest: "src/css"
     }
-};
+}
 
 function style() {
     return gulp
@@ -41,8 +41,6 @@ function watch() {
 
     gulp.watch("src/*.html", reload);
 }
-
-
 
 exports.watch = watch
 exports.style = style;
